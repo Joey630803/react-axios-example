@@ -17,7 +17,7 @@ export default class App extends Component {
     return (
       <div className="container">
         <section className="jumbotron">
-          <h3 className="jumbotron-heading">Welcome to GitHub</h3>
+          <h3 className="jumbotron-heading">Welcome to Search</h3>
           <Search setSearchName={this.setSearchName}/>
         </section>
         <UserList searchName={this.state.searchName}/>
